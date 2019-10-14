@@ -5,6 +5,7 @@ int avtat = 0;
 printf("Enter total number of processes: ");
 scanf("%d",&n);
 printf("\nEnter burst times\n");
+printf("\ncalculating burst time");
 
 for(i = 0; i<n; i++){
 	printf("p[%d]",i+1);
