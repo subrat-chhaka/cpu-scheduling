@@ -38,6 +38,7 @@ for(i = 1; i < n; i++){
 	}	
 	total += wt[i];
 }
+	
 avg_wt = total / n;
 total = 0;
 printf("\nProcess\tBurst time\tWaiting time\tTurn around time");
@@ -51,3 +52,7 @@ printf("\nAverage turn around time = %f", avg_tat);
 printf("\nAverage waiting time = %f", avg_wt);
 return 0;
 }
+
+
+/*use a swap function using pointers
+*/
