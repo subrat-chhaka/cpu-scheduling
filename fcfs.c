@@ -21,7 +21,7 @@ for(i = 0; i < n; i++){
 	}	
 }
 printf("\nProcess\tBurst Time\tWaiting Time\tTurnaround time");
-
+printf("\n")
 for(i = 0; i < n; i++){
 	tat[i] = bt[i] + wt[i];
 	avwt += wt[i];
@@ -34,3 +34,5 @@ for(i = 0; i < n; i++){
 printf("\nAverage waiting time: %f\nAverage turn around time: %f", (float)avwt/i,(float)avtat/i);
 return 0;
 }
+
+//updated and restructed the code
