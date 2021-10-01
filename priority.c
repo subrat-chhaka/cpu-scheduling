@@ -48,6 +48,7 @@ for(i = 0; i < n; i++){
 	printf("\np[%d]\t\t%d\t\t%d\t\t%d", p[i], bt[i], wt[i], tat[i]);
 }
 avg_tat = total / n;
+printf("\n*****Results*****")
 printf("\nAverage turn around time = %f", avg_tat);
 printf("\nAverage waiting time = %f", avg_wt);
 return 0;
